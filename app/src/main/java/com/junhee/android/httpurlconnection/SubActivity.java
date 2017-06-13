@@ -10,7 +10,7 @@ public class SubActivity extends AppCompatActivity implements TaskInterface{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
 
-        Task.newTask(this);
+        Remote.newTask(this);
     }
 
     @Override
